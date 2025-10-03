@@ -7,7 +7,7 @@ $featured = $stmt->fetchAll();
 ?>
 <section class="hero">
   <div class="hero-card">
-    <h1 class="text-balance" style="margin-top:0">Find Fresh Farm Products Near You</h1>
+    <h1 class="text-balance" style="margin-top:0">Find Fresh Farm's Products Near You</h1>
     <p>Support farmers, eat fresh, and get deliveries to your doorstep.</p>
     <form class="search" action="<?= e(APP_URL) ?>/products/catalog.php" method="get">
       <input name="q" type="text" placeholder="Search vegetables, fruits, grains..." />
